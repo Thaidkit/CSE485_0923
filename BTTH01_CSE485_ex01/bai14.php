@@ -10,9 +10,8 @@
     ];
     
     $result = [];
-    $count = count($array1);
     
-    for ($i = 0; $i < $count; $i++) {
+    for ($i = 0; $i < count($array1); $i++) {
         $result[$i] = array_merge([$array2[$i]], $array1[$i]); //hàm merge hợp nhất 2 mạng có cùng key
     }
     
