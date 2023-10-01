@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:beige;
+}
+
+img{
+    margin: 20px 0px 25px 0px
+
+}
+
+.col-md-3{
+    background-color: white;
+    width: 20%;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: grey;
+}
+.nav-link:hover{
+    color: tomato;
+}
+
+.icon-left-part{
+    margin-right: 20px;
+    color: tomato;
+}
+
+.badge{
+    background-color: pink;
+    color: tomato;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(180deg);
+}
+.accordion-button::after{
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.row-top{
+    border-bottom: 2px solid white;
+    margin: 20px 20px 30px 20px;
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+}
+
+.row-center{
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px;
+    padding: 30px 10px 30px ;
+}
+.col-md-1{
+    background-color: white;
+    margin: 20px 0px 20px 10px;
+}
